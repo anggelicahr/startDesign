@@ -1,0 +1,51 @@
+/* REGLAS GENERALES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.nav__logotipo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logotipo--circle {
+  background-color: #918c8e;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.nav__logotipo--icon {
+  margin-top: -17px;
+  margin-left: 5px;
+  font-size: 1.4rem !important;
+}
+
+.nav__logotipo--title {
+  font-size: 1.1rem;
+  margin-left: 10px;
+  display: flex;
+}
+
+.nav__logotipo--title--1,
+.nav__content--right--1 {
+  color: #918c8e;
+  font-weight: 500;
+}
+
+.nav__logotipo--title--2,
+.nav__content--right--2 {
+  color: #ffa500;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.nav__content {
+  display: flex;
+}
