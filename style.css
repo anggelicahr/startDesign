@@ -49,3 +49,53 @@ nav {
 .nav__content {
   display: flex;
 }
+
+.header__banner {
+  background: linear-gradient(170deg, #529fbe 10%, #87a15c 70%);
+  height: 50vh;
+  margin-top: -30px;
+}
+
+.header__banner--first {
+  width: 50%;
+  margin-left: 50%;
+  color: #ffffff;
+  padding-right: 10%;
+}
+
+.header__banner--title {
+  padding-top: 20%;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.header__banner--subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: end;
+  line-height: 20px;
+  opacity: 0.7;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  color: #ffa500;
+  color: #000000;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 10px 160px 0 160px;
+}
+
+.grid__item {
+  border-radius: 6px;
+  padding: 30px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-align: center;
+}
