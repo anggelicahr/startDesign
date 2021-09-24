@@ -81,12 +81,19 @@ nav {
 }
 
 .btn-large {
+  color: #ffffff !important;
+  font-weight: 600;
   border-radius: 10px;
 }
 
 .btn-large:hover {
   color: #ffa500;
   color: #000000;
+}
+
+.section__title {
+  color: #4b9ab9;
+  font-weight: 500;
 }
 
 .grid__container {
@@ -101,5 +108,19 @@ nav {
   padding: 30px;
   font-size: 1.1rem;
   color: #ffffff;
+  text-align: center;
+}
+
+.collection__styles {
+  border: none !important;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer__section {
+  padding: 60px 0;
   text-align: center;
 }
